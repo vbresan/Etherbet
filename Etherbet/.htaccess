@@ -1,0 +1,8 @@
+RewriteEngine on
+ErrorDocument 401 /401.html
+ErrorDocument 403 /403.html
+ErrorDocument 404 /404.html
+
+SetEnv SERVER_ADMIN admin@example.com
+
+ServerSignature off

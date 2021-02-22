@@ -1,0 +1,29 @@
+#floatingButtonFAQ, #floatingButtonTest {
+  display: block;
+  position: fixed;
+  z-index: 99;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#floatingButtonFAQ {
+  top: 50px;
+  left: 30px;
+  font-size: 18px;
+}
+
+#floatingButtonTest {
+  top: 110px;
+  left: 30px;
+  font-size: 11px;
+}
+
+#floatingButtonFAQ:hover, #floatingButtonTest:hover {
+  background-color: #555;
+}

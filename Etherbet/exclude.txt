@@ -1,0 +1,10 @@
+\CVS\
+\.settings\
+.project
+.buildpath
+exclude.txt
+copy.bat
+zip.bat
+buildall.bat
+archive.zip
+new.zip

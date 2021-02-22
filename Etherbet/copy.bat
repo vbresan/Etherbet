@@ -1,0 +1,1 @@
+xcopy ".\*" X:\xampp\htdocs\ /EXCLUDE:exclude.txt /D /E /Y

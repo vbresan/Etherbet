@@ -1,0 +1,85 @@
+body {
+	background-image: url("../img/background.jpg");
+}
+h1, h2.subtitle, h3.subtitle {
+	color: #F8F9FA;
+	text-shadow: 2px 2px 4px #000000;
+	text-align:center;
+}
+table.match {
+	margin-left: auto; 
+	margin-right: auto;
+	background-color: #F8F9FA;
+}
+table.shadow {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+table.maxwidth {
+	width: 100%;
+	padding: 5px;
+}
+.hidden {
+	display: none;
+}
+/* is necessary? */
+td.header, th.header {
+	padding: 10px;
+	font-weight: bold;
+	text-align: center;
+}
+td.team {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 19px;
+	width: 210px;
+}
+td.leftside {
+	text-align: right;
+}
+td.padding {
+	width: 290px;
+}
+td.vs {
+	text-align: center; 
+	width: 30px;
+}
+/* is necessary? */
+td.half {
+	width: 50%;
+}
+td.progress {
+	text-align: center; 
+	height: 34px;
+}
+td.result{
+	font-weight: bold;
+	font-size: 19px;
+	padding-left:  10px;
+	padding-right: 10px;
+}
+td.expired {
+	text-align: center; 
+	color: red;
+}
+td.dialog_header {
+	padding-left:  10px;
+	padding-right: 10px;
+}
+td.put-ether {
+	padding-bottom: 15px; 
+	padding-top: 15px;
+}
+td.center {
+	text-align: center;
+}
+input.eth-value {
+	text-align: right;
+	font-size: 17px;
+}
+img.flag {
+	width:  32px; 
+	height: 32px;
+}
+span.lola {
+	font-weight: bold;
+}
